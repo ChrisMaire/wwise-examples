@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="75">
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1155210065" DateHigh="30574206"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Attenuations\Default Work Unit.wwu" DateLow="196598014" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Audio Devices\Default Work Unit.wwu" DateLow="195772221" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Control Surface Sessions\Default Work Unit.wwu" DateLow="213623612" DateHigh="30574203"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Conversion Settings\Default Work Unit.wwu" DateLow="195627085" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Conversion Settings\Factory Conversion Settings.wwu" DateLow="369490037" DateHigh="30573408"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Dynamic Dialogue\Default Work Unit.wwu" DateLow="195336806" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Effects\Default Work Unit.wwu" DateLow="195201674" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Effects\Factory Effects.wwu" DateLow="374609950" DateHigh="30573408"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Events\Default Work Unit.wwu" DateLow="2420855279" DateHigh="30584047"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Game Parameters\Default Work Unit.wwu" DateLow="2420900323" DateHigh="30584047"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="195301772" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2420214663" DateHigh="30584047"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Mixing Sessions\Default Work Unit.wwu" DateLow="195471943" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Modulators\Default Work Unit.wwu" DateLow="195672133" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Presets\Default Work Unit.wwu" DateLow="195266739" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Queries\Default Work Unit.wwu" DateLow="195547008" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Queries\Factory Queries.wwu" DateLow="369294850" DateHigh="30573408"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\SoundBanks\Default Work Unit.wwu" DateLow="715751516" DateHigh="30574207"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Soundcaster Sessions\Default Work Unit.wwu" DateLow="195366835" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\States\Default Work Unit.wwu" DateLow="195161635" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Switches\Default Work Unit.wwu" DateLow="2708087811" DateHigh="30574205"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\Triggers\Default Work Unit.wwu" DateLow="195426892" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\wwise-examples-wwise-project.Dinosaurs.wsettings" DateLow="68063777" DateHigh="30584652"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-examples-wwise-project\wwise-examples-wwise-project.wproj" DateLow="8982893" DateHigh="30584652"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1155210065" DateHigh="30574206"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="196598014" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="195772221" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="213623612" DateHigh="30574203"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="195627085" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="369490037" DateHigh="30573408"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="195336806" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Effects\Default Work Unit.wwu" DateLow="195201674" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Effects\Factory Effects.wwu" DateLow="374609950" DateHigh="30573408"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Events\Default Work Unit.wwu" DateLow="2420855279" DateHigh="30584047"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="2420900323" DateHigh="30584047"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="195301772" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2420214663" DateHigh="30584047"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="195471943" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="195672133" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Presets\Default Work Unit.wwu" DateLow="195266739" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Queries\Default Work Unit.wwu" DateLow="195547008" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Queries\Factory Queries.wwu" DateLow="369294850" DateHigh="30573408"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="715751516" DateHigh="30574207"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="195366835" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\States\Default Work Unit.wwu" DateLow="195161635" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Switches\Default Work Unit.wwu" DateLow="2708087811" DateHigh="30574205"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="195426892" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\wwise-test_WwiseProject.Dinosaurs.wsettings" DateLow="1777985350" DateHigh="30584398"/>
+	<ValidationCacheItem File="F:\dev\wwise-examples\wwise-test_WwiseProject\wwise-test_WwiseProject.wproj" DateLow="1373179052" DateHigh="30574206"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1155210065" DateHigh="30574206"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="196598014" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="195772221" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="213623612" DateHigh="30574203"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="195627085" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="369490037" DateHigh="30573408"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="195336806" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Effects\Default Work Unit.wwu" DateLow="195201674" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Effects\Factory Effects.wwu" DateLow="374609950" DateHigh="30573408"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Events\Default Work Unit.wwu" DateLow="2420855279" DateHigh="30584047"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="2420900323" DateHigh="30584047"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="195301772" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2420214663" DateHigh="30584047"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="195471943" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="195672133" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Presets\Default Work Unit.wwu" DateLow="195266739" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Queries\Default Work Unit.wwu" DateLow="195547008" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Queries\Factory Queries.wwu" DateLow="369294850" DateHigh="30573408"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="715751516" DateHigh="30574207"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="195366835" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\States\Default Work Unit.wwu" DateLow="195161635" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Switches\Default Work Unit.wwu" DateLow="2708087811" DateHigh="30574205"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="195426892" DateHigh="30574201"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\wwise-test_WwiseProject.Dinosaurs.wsettings" DateLow="3013077310" DateHigh="30584051"/>
+	<ValidationCacheItem File="F:\dev\wwise-test\wwise-test_WwiseProject\wwise-test_WwiseProject.wproj" DateLow="1373179052" DateHigh="30574206"/>
+</ValidationCache>

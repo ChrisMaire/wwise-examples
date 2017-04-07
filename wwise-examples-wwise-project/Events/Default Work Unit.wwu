@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FC85F42D-65DF-45E6-9537-1BB4F0A7CBEC}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{FC85F42D-65DF-45E6-9537-1BB4F0A7CBEC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="sfx_footstep" ID="{A6E21B8F-2185-4A5D-8EA7-85D58AC89145}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7FE65728-6EC9-454D-8EAC-72B36D1AAC89}" ShortID="564125974" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1E3D88EF-6679-4E55-89B5-33605E91FCFB}" Global="false">
+									<ObjectRef Name="Footstep" ID="{8628884A-ACA0-4BE4-81D1-D4A20AAA0F3F}" WorkUnitID="{B12E30B4-B30F-488B-9673-6E152C07D3D4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_Bus_Volume" ID="{0A388970-9921-4E94-A74B-C6145F085D58}">
+					<ChildrenList>
+						<Action Name="Set Bus Volume" ID="{DB6AD55D-FAED-4E43-9A47-57B78E32AC34}" ShortID="945769925" Type="ChangeBusVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FA370F5B-1634-425A-A041-CD8F6E633604}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{693BCB31-EED9-4369-BEA9-06D07F875B0C}" Global="true">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B617240-03C7-4AC8-840D-04AE4924DFA8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

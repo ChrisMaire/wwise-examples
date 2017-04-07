@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>F:\dev\wwise-test\wwise-test_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>F:\dev\wwise-test\wwise-test_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>F:\dev\wwise-test\wwise-test_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>F:\dev\wwise-test\wwise-test_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="534561221" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundbank</ObjectPath>
+			<ShortName>MainSoundbank</ShortName>
+			<Path>MainSoundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1069143671" Name="sfx_footstep" ObjectPath="\Events\Default Work Unit\sfx_footstep"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="89077908" Language="SFX">
+					<ShortName>Footstep01grass.wav</ShortName>
+					<Path>SFX\Footstep01grass_9E69E797.wem</Path>
+				</File>
+				<File Id="190326491" Language="SFX">
+					<ShortName>Footstep01.wav</ShortName>
+					<Path>SFX\Footstep01_9E69E797.wem</Path>
+				</File>
+				<File Id="291076373" Language="SFX">
+					<ShortName>Footstep04.wav</ShortName>
+					<Path>SFX\Footstep04_9E69E797.wem</Path>
+				</File>
+				<File Id="649025824" Language="SFX">
+					<ShortName>Footstep02.wav</ShortName>
+					<Path>SFX\Footstep02_9E69E797.wem</Path>
+				</File>
+				<File Id="934581755" Language="SFX">
+					<ShortName>Footstep03.wav</ShortName>
+					<Path>SFX\Footstep03_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

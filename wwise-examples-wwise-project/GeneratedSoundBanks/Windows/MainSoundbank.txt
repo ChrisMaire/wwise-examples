@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1069143671	sfx_footstep			\Default Work Unit\sfx_footstep	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3865314626	Material			\Default Work Unit\Material	
+
+Switch	ID	Name	Switch Group			Notes
+	2144363834	Rock	Material			
+	4248645337	Grass	Material			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	89077908	Footstep01grass	F:\dev\wwise-test\wwise-test_WwiseProject\.cache\Windows\SFX\Footstep01grass_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footstep\Grass\Footstep01grass		48056
+	190326491	Footstep01	F:\dev\wwise-test\wwise-test_WwiseProject\.cache\Windows\SFX\Footstep01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footstep\Rock\Footstep01		48056
+	291076373	Footstep04	F:\dev\wwise-test\wwise-test_WwiseProject\.cache\Windows\SFX\Footstep04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footstep\Rock\Footstep04		38368
+	649025824	Footstep02	F:\dev\wwise-test\wwise-test_WwiseProject\.cache\Windows\SFX\Footstep02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footstep\Rock\Footstep02		49736
+	934581755	Footstep03	F:\dev\wwise-test\wwise-test_WwiseProject\.cache\Windows\SFX\Footstep03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footstep\Rock\Footstep03		52872
+
