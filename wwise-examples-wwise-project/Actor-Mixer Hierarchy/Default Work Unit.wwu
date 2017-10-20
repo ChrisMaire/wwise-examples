@@ -175,6 +175,58 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Water" ID="{3B16A6A4-AC05-494E-B079-602F631683EA}" ShortID="109182079">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-60</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A587DCF-CBC0-4463-A8E4-14F59B2C9CAA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B617240-03C7-4AC8-840D-04AE4924DFA8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Water" ID="{67BA07F7-F468-47D2-9576-A8B786C00F35}" ShortID="142697074" Type="SoundFX">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{DCED5D0F-D7E5-4F58-9CE2-3E22F3E8F55F}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-303"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A587DCF-CBC0-4463-A8E4-14F59B2C9CAA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B617240-03C7-4AC8-840D-04AE4924DFA8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Video_Game_Splash-Ploor-699235037" ID="{F154C774-2A87-4DBB-88D4-6CEEBAEAF2D7}" ShortID="618611430">
+													<Language>SFX</Language>
+													<AudioFile>Video_Game_Splash-Ploor-699235037.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Video_Game_Splash-Ploor-699235037" ID="{F154C774-2A87-4DBB-88D4-6CEEBAEAF2D7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupRef Name="Material" ID="{DD13B047-8038-47D9-B739-E27D10CD71D0}"/>
@@ -185,6 +237,9 @@
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Rock" ID="{AA975B96-95A7-4695-AFE0-72DFEA913F88}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Water" ID="{3B16A6A4-AC05-494E-B079-602F631683EA}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
@@ -198,6 +253,12 @@
 										<SwitchRef Name="Grass" ID="{AB2D4795-503A-47D6-91DC-B60A53C738A0}"/>
 										<ItemList>
 											<ItemRef Name="Grass" ID="{0BCC6409-3F9E-4C93-A80D-FD237C4D9566}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Water" ID="{94CBE29A-F8B3-402E-92F1-46AC49517CD4}"/>
+										<ItemList>
+											<ItemRef Name="Water" ID="{3B16A6A4-AC05-494E-B079-602F631683EA}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>

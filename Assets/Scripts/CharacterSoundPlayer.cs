@@ -26,38 +26,6 @@ public class CharacterSoundPlayer : MonoBehaviour
 
         terrainData = Terrain.activeTerrain.terrainData;
         terrainPos =  Terrain.activeTerrain.GetPosition();
-
-        vol = GetAndPrintVolume();
-    }
-
-    void Update()
-    {
-        if (Input.GetKeyUp(KeyCode.Equals) || Input.GetKeyUp(KeyCode.Minus))
-        {
-            if (Input.GetKeyUp(KeyCode.Equals))
-            {
-                vol += 10;
-            }
-            else
-            {
-                vol -= 10;
-            }
-            AkSoundEngine.SetRTPCValue("Volume", vol + 10, null);
-
-            GetAndPrintVolume();
-        }
-    }
-
-    public float GetAndPrintVolume()
-    {
-        float v = 0.5f;
-        int vtype = (int)RTPCValue_type.RTPCValue_Global;
-        uint pid = (uint)RTPCValue_type.RTPCValue_PlayingID;
-        AkSoundEngine.GetRTPCValue("Volume", gameObject, pid, out v, ref vtype);
-
-        Debug.Log("volume is now " + v);
-
-        return v;
     }
 
     /// <summary>
@@ -72,8 +40,15 @@ public class CharacterSoundPlayer : MonoBehaviour
         {
             Texture floorText = getTerrainTextureAt(transform.position);
 
-            AkSoundEngine.SetSwitch("Material", switchesByTexture[floorText.name], gameObject);
-            AkSoundEngine.PostEvent("sfx_footstep", gameObject);
+            if(switchesByTexture.ContainsKey(floorText.name))
+            {
+                AkSoundEngine.SetSwitch("Material", switchesByTexture[floorText.name], gameObject);
+                AkSoundEngine.PostEvent("sfx_footstep", gameObject);
+            } else
+            {
+                Debug.LogWarning("No audio switch found for text " + floorText.name);
+            }
+
         }
     }
 

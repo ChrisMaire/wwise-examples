@@ -26,6 +26,7 @@ namespace AK
             {
                 static const AkUniqueID GRASS = 4248645337U;
                 static const AkUniqueID ROCK = 2144363834U;
+                static const AkUniqueID WATER = 2654748154U;
             } // namespace SWITCH
         } // namespace MATERIAL
 

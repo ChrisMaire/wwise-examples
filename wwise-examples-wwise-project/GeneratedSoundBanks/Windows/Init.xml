@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>F:\dev\wwise-test\wwise-test_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>F:\dev\wwise-test\wwise-test_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>F:\dev\wwise-test\wwise-test_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>F:\dev\wwise-examples\wwise-examples-wwise-project\</ProjectRoot>
+		<SourceFilesRoot>F:\dev\wwise-examples\wwise-examples-wwise-project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>F:\dev\wwise-examples\wwise-examples-wwise-project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>F:\dev\wwise-test\wwise-test_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>F:\dev\wwise-examples\wwise-examples-wwise-project\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="1355168291" Language="SFX">
