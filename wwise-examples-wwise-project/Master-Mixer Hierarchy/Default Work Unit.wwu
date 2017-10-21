@@ -10,7 +10,7 @@
 								<RTPC Name="" ID="{E03904F1-F70B-4453-8796-4E4EBD11CC1A}" ShortID="98485951">
 									<ReferenceList>
 										<Reference Name="ControlInput">
-											<ObjectRef Name="Volume" ID="{20DDC784-C85A-4556-BD9D-D7C8CBC00ADD}" WorkUnitID="{299ADDEE-6D8A-4DED-82B8-2B4C6B6E3B53}"/>
+											<ObjectRef Name="MainVolume" ID="{1F13B6F2-48A5-4553-BC70-F6B4D836CA61}" WorkUnitID="{299ADDEE-6D8A-4DED-82B8-2B4C6B6E3B53}"/>
 										</Reference>
 									</ReferenceList>
 									<Curve Name="" ID="{8A3F60F5-B19C-49AD-A9FC-EE671C055F71}">
@@ -24,7 +24,7 @@
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>180</XPos>
+												<XPos>100</XPos>
 												<YPos>0</YPos>
 												<Flags>37</Flags>
 											</Point>
@@ -34,6 +34,89 @@
 							</RTPCList>
 						</Property>
 					</PropertyList>
+					<ChildrenList>
+						<Bus Name="SFX Bus" ID="{0E00291F-E4AE-4DA8-85C7-679A99479DA2}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{4F07A4CE-8216-4E94-BE39-A3658ACE30D4}" ShortID="271019298">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFXVolume" ID="{20DDC784-C85A-4556-BD9D-D7C8CBC00ADD}" WorkUnitID="{299ADDEE-6D8A-4DED-82B8-2B4C6B6E3B53}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{8522B57E-7E71-467C-8536-B058AC28DC8A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="MusicBus" ID="{C88ABFD3-0306-4873-953E-36E2A75DC15C}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{431FB7D6-6138-4C68-8884-2B7F8974283B}" ShortID="758934464">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MusicVolume" ID="{A613EB04-38BA-42C5-A50A-50433D65CC62}" WorkUnitID="{299ADDEE-6D8A-4DED-82B8-2B4C6B6E3B53}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{EF152EE5-4458-45BD-AAB2-08687EF71DB7}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<AuxBus Name="ReverbHall" ID="{2CCFA23D-8108-4617-B8A9-B5102A9794EB}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+									<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Small_Tiled_Room1" ID="{41EEE722-3009-4B3F-8820-F414623783E3}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="ReverbOutside" ID="{3E34FA46-64A4-4FA4-8F61-55AB4CEF78CB}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
 				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
 				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>

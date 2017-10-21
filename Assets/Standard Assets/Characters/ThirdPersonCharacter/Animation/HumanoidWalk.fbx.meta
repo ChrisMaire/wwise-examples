@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: b1a5e04ae51004842aba06704a6c2903
+labels:
+- Demo
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -485,6 +487,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 

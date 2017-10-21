@@ -5,6 +5,8 @@ using UnityEngine.Events;
 
 public class AudioController : MonoBehaviour {
     public float Volume = 0f;
+    public float MusVolume = 0f;
+
     public float VolumeDeltaPerClick = 10f;
     private float volumeStart = 50f;
 
@@ -29,18 +31,19 @@ public class AudioController : MonoBehaviour {
 
 	void Start () {
         SetVolume(volumeStart);
+        SetMusVolume(volumeStart);
     }
 
 #region volume
 
     public void VolumeUp()
     {
-        ShiftVolume(10f);
+        ShiftVolume(VolumeDeltaPerClick);
     }
 
     public void VolumeDown()
     {
-        ShiftVolume(-10f);
+        ShiftVolume(-VolumeDeltaPerClick);
     }
 
     private void ShiftVolume(float delta)
@@ -51,7 +54,7 @@ public class AudioController : MonoBehaviour {
     private void SetVolume(float value)
     {
         //AkSoundEngine.SetRTPCValue("Volume", value, null);
-        AkSoundEngine.SetRTPCValue(AK.GAME_PARAMETERS.VOLUME, value, null);
+        AkSoundEngine.SetRTPCValue(AK.GAME_PARAMETERS.MAINVOLUME, value, null);
         Volume = value;
         OnVolumeChanged.Invoke();
     }
@@ -61,9 +64,52 @@ public class AudioController : MonoBehaviour {
         float v = 0.5f;
         int vtype = (int)RTPCValue_type.RTPCValue_Global;
         uint pid = (uint)RTPCValue_type.RTPCValue_PlayingID;
-        AkSoundEngine.GetRTPCValue(AK.GAME_PARAMETERS.VOLUME, gameObject, pid, out v, ref vtype);
+        AkSoundEngine.GetRTPCValue(AK.GAME_PARAMETERS.MAINVOLUME, gameObject, pid, out v, ref vtype);
 
         return v;
     }
-#endregion
+
+    public void MusVolumeUp()
+    {
+        ShiftMusVolume(VolumeDeltaPerClick);
+    }
+
+    public void MusVolumeDown()
+    {
+        ShiftMusVolume(-VolumeDeltaPerClick);
+    }
+
+    private void ShiftMusVolume(float delta)
+    {
+        SetMusVolume(GetMusVolume() + delta);
+    }
+
+    private void SetMusVolume(float value)
+    {
+        //AkSoundEngine.SetRTPCValue("Volume", value, null);
+        AkSoundEngine.SetRTPCValue(AK.GAME_PARAMETERS.MUSICVOLUME, value, null);
+        MusVolume = value;
+        OnVolumeChanged.Invoke();
+    }
+
+    public float GetMusVolume()
+    {
+        float v = 0.5f;
+        int vtype = (int)RTPCValue_type.RTPCValue_Global;
+        uint pid = (uint)RTPCValue_type.RTPCValue_PlayingID;
+        AkSoundEngine.GetRTPCValue(AK.GAME_PARAMETERS.MUSICVOLUME, gameObject, pid, out v, ref vtype);
+
+        return v;
+    }
+
+    public void MusicLowPass()
+    {
+        AkSoundEngine.PostEvent(AK.EVENTS.MUSICLOWPASS, gameObject);
+    }
+
+    public void ResetMusicBus()
+    {
+        AkSoundEngine.PostEvent(AK.EVENTS.MUSICRESET, gameObject);
+    }
+    #endregion
 }

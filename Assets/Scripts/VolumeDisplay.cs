@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class VolumeDisplay : MonoBehaviour {
+    public bool Mus;
+
     private Image image;
 
 	void Awake () {
@@ -11,8 +13,20 @@ public class VolumeDisplay : MonoBehaviour {
         AudioController.Instance.OnVolumeChanged.AddListener(VolumeChanged);
     }
 
+    void Start()
+    {
+        VolumeChanged();
+    }
+
     void VolumeChanged()
     {
-        image.fillAmount = AudioController.Instance.Volume / 100f;
+        if(Mus)
+        {
+            image.fillAmount = AudioController.Instance.MusVolume / 100f;
+        }
+        else
+        {
+            image.fillAmount = AudioController.Instance.Volume / 100f;
+        }
     }
 }

@@ -13,6 +13,10 @@
 			<ShortName>MainSoundbank</ShortName>
 			<Path>MainSoundbank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="862111691" Name="MusicLowPass" ObjectPath="\Events\Default Work Unit\MusicLowPass"/>
+				<Event Id="1522869175" Name="MusicReset" ObjectPath="\Events\Default Work Unit\MusicReset" MaxAttenuation="0.000000"/>
+				<Event Id="417627684" Name="PlayMusic" ObjectPath="\Events\Default Work Unit\PlayMusic"/>
+				<Event Id="878501037" Name="Set_Bus_Volume" ObjectPath="\Events\Default Work Unit\Set_Bus_Volume" MaxAttenuation="0.000000"/>
 				<Event Id="1069143671" Name="sfx_footstep" ObjectPath="\Events\Default Work Unit\sfx_footstep"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -28,6 +32,14 @@
 					<ShortName>Footstep04.wav</ShortName>
 					<Path>SFX\Footstep04_9E69E797.wem</Path>
 				</File>
+				<File Id="325662517" Language="SFX">
+					<ShortName>air-horn-club-sample_1.wav</ShortName>
+					<Path>SFX\air-horn-club-sample_1_9E69E797.wem</Path>
+				</File>
+				<File Id="614257030" Language="SFX">
+					<ShortName>Columbia_Saxaphone_Sextette_-_Frogs_Legs.wav</ShortName>
+					<Path>SFX\Columbia_Saxaphone_Sextette_-_Frogs_Legs_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="618611430" Language="SFX">
 					<ShortName>Video_Game_Splash-Ploor-699235037.wav</ShortName>
 					<Path>SFX\Video_Game_Splash-Ploor-699235037_9E69E797.wem</Path>
@@ -35,6 +47,10 @@
 				<File Id="649025824" Language="SFX">
 					<ShortName>Footstep02.wav</ShortName>
 					<Path>SFX\Footstep02_9E69E797.wem</Path>
+				</File>
+				<File Id="710457978" Language="SFX">
+					<ShortName>DAMN SON! WHERED YOU FIND THIS.wav</ShortName>
+					<Path>SFX\DAMN SON! WHERED YOU FIND THIS_9E69E797.wem</Path>
 				</File>
 				<File Id="934581755" Language="SFX">
 					<ShortName>Footstep03.wav</ShortName>

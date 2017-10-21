@@ -34,6 +34,80 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="MusicLowPass" ID="{4B240DC6-CF91-475E-843B-2DC5BB927279}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0C59E550-C7CB-4528-ACC4-71E90823FB58}" ShortID="34029490" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{FA2CECCD-CF0F-4604-A41F-38030CF2E84C}" Global="false">
+									<ObjectRef Name="AirHorn" ID="{F62E870C-8686-484E-BF53-93D9A9B55FD9}" WorkUnitID="{B12E30B4-B30F-488B-9673-6E152C07D3D4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{1C7ABDC4-37EA-4AB5-A0B3-CB77B30688C9}" ShortID="683241772" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{E8070E29-3750-422F-98FE-6797256BBB7E}" Global="false">
+									<ObjectRef Name="DamnSon" ID="{81E95F5C-0D7B-42C1-8048-AAFE7E6349F2}" WorkUnitID="{B12E30B4-B30F-488B-9673-6E152C07D3D4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set Voice High-pass Filter" ID="{8505AC21-9022-4D39-91AF-4F518FC4F1AD}" ShortID="381082580" Type="ChangeHPF" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Highpass" Type="int16" Value="50"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{D972B213-1BC5-4C3D-92E1-AE8EEDFD2694}" Global="true">
+									<ObjectRef Name="MusicBus" ID="{C88ABFD3-0306-4873-953E-36E2A75DC15C}" WorkUnitID="{5B617240-03C7-4AC8-840D-04AE4924DFA8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set Voice Pitch" ID="{E4D7F3D7-62AB-4FC5-99C7-672308A90D05}" ShortID="764547670" Type="ChangePitch" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Pitch" Type="int32" Value="-660"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{9BF86C59-CA56-46BA-8006-04B12E76AC37}" Global="true">
+									<ObjectRef Name="MusicBus" ID="{C88ABFD3-0306-4873-953E-36E2A75DC15C}" WorkUnitID="{5B617240-03C7-4AC8-840D-04AE4924DFA8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayMusic" ID="{8F17146C-2106-4558-B34B-9A164AF4770C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{4EDECB4B-CC41-4EBE-B6BC-2EFACC5A991F}" ShortID="252240842" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{051EB9CE-B62D-4CE9-9C56-8765A7A8F4BA}" Global="false">
+									<ObjectRef Name="Columbia_Saxaphone_Sextette-Frogs_Legs" ID="{C934CA72-FCC7-4120-AE75-86BD40124888}" WorkUnitID="{B12E30B4-B30F-488B-9673-6E152C07D3D4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MusicReset" ID="{AD2D5363-022A-4E4C-9571-6AE70F0750FC}">
+					<ChildrenList>
+						<Action Name="Reset Voice Low-pass Filter" ID="{E3AC243C-C4CD-4B19-8D6D-BFDD4496EE5C}" ShortID="522732961" Type="ResetLPF" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{17A754AC-3086-4A18-97F4-BB8425E72672}" Global="true">
+									<ObjectRef Name="MusicBus" ID="{C88ABFD3-0306-4873-953E-36E2A75DC15C}" WorkUnitID="{5B617240-03C7-4AC8-840D-04AE4924DFA8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Reset Voice Pitch" ID="{60958BA6-328E-4CBD-9D6C-4BB1624A4F6F}" ShortID="438372171" Type="ResetPitch" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{209EDA85-1DE3-498C-8765-1D2537742585}" Global="true">
+									<ObjectRef Name="MusicBus" ID="{C88ABFD3-0306-4873-953E-36E2A75DC15C}" WorkUnitID="{5B617240-03C7-4AC8-840D-04AE4924DFA8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

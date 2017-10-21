@@ -3,12 +3,9 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{299ADDEE-6D8A-4DED-82B8-2B4C6B6E3B53}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="Volume" ID="{20DDC784-C85A-4556-BD9D-D7C8CBC00ADD}">
-					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="180"/>
-					</PropertyList>
-				</GameParameter>
+				<GameParameter Name="SFXVolume" ID="{20DDC784-C85A-4556-BD9D-D7C8CBC00ADD}"/>
+				<GameParameter Name="MusicVolume" ID="{A613EB04-38BA-42C5-A50A-50433D65CC62}"/>
+				<GameParameter Name="MainVolume" ID="{1F13B6F2-48A5-4553-BC70-F6B4D836CA61}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

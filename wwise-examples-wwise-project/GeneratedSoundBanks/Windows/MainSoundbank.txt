@@ -1,5 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
+	417627684	PlayMusic			\Default Work Unit\PlayMusic	
+	862111691	MusicLowPass			\Default Work Unit\MusicLowPass	
+	878501037	Set_Bus_Volume			\Default Work Unit\Set_Bus_Volume	
 	1069143671	sfx_footstep			\Default Work Unit\sfx_footstep	
+	1522869175	MusicReset			\Default Work Unit\MusicReset	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	3865314626	Material			\Default Work Unit\Material	
@@ -9,11 +13,29 @@ Switch	ID	Name	Switch Group			Notes
 	2654748154	Water	Material			
 	4248645337	Grass	Material			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1843561328	MainVolume			\Default Work Unit\MainVolume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1792153676	ReverbHall			\Default Work Unit\Master Audio Bus\ReverbHall	
+	2177764750	ReverbOutside			\Default Work Unit\Master Audio Bus\ReverbOutside	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	992902880	Small_Tiled_Room1	Wwise Matrix Reverb			
+	1588715066	Echoes_Linear	Wwise Delay			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	89077908	Footstep01grass	F:\dev\wwise-examples\wwise-examples-wwise-project\.cache\Windows\SFX\Footstep01grass_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footstep\Grass\Footstep01grass		48056
-	190326491	Footstep01	F:\dev\wwise-examples\wwise-examples-wwise-project\.cache\Windows\SFX\Footstep01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footstep\Rock\Footstep01		48056
-	291076373	Footstep04	F:\dev\wwise-examples\wwise-examples-wwise-project\.cache\Windows\SFX\Footstep04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footstep\Rock\Footstep04		38368
-	618611430	Water	F:\dev\wwise-examples\wwise-examples-wwise-project\.cache\Windows\SFX\Video_Game_Splash-Ploor-699235037_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footstep\Water\Water		72256
-	649025824	Footstep02	F:\dev\wwise-examples\wwise-examples-wwise-project\.cache\Windows\SFX\Footstep02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footstep\Rock\Footstep02		49736
-	934581755	Footstep03	F:\dev\wwise-examples\wwise-examples-wwise-project\.cache\Windows\SFX\Footstep03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footstep\Rock\Footstep03		52872
+	89077908	Footstep01grass	F:\dev\wwise-examples\wwise-examples-wwise-project\.cache\Windows\SFX\Footstep01grass_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Movement\Footstep\Grass\Footstep01grass		48056
+	190326491	Footstep01	F:\dev\wwise-examples\wwise-examples-wwise-project\.cache\Windows\SFX\Footstep01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Movement\Footstep\Rock\Footstep01		48056
+	291076373	Footstep04	F:\dev\wwise-examples\wwise-examples-wwise-project\.cache\Windows\SFX\Footstep04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Movement\Footstep\Rock\Footstep04		38368
+	325662517	AirHorn	F:\dev\wwise-examples\wwise-examples-wwise-project\.cache\Windows\SFX\air-horn-club-sample_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\MusicFX\AirHorn		149824
+	614257030	Columbia_Saxaphone_Sextette-Frogs_Legs	F:\dev\wwise-examples\wwise-examples-wwise-project\.cache\Windows\SFX\Columbia_Saxaphone_Sextette_-_Frogs_Legs_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Columbia_Saxaphone_Sextette-Frogs_Legs		28348480
+	618611430	Water	F:\dev\wwise-examples\wwise-examples-wwise-project\.cache\Windows\SFX\Video_Game_Splash-Ploor-699235037_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Movement\Footstep\Water\Water		72256
+	649025824	Footstep02	F:\dev\wwise-examples\wwise-examples-wwise-project\.cache\Windows\SFX\Footstep02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Movement\Footstep\Rock\Footstep02		49736
+	710457978	DamnSon	F:\dev\wwise-examples\wwise-examples-wwise-project\.cache\Windows\SFX\DAMN SON! WHERED YOU FIND THIS_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\MusicFX\DamnSon		433216
+	934581755	Footstep03	F:\dev\wwise-examples\wwise-examples-wwise-project\.cache\Windows\SFX\Footstep03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Movement\Footstep\Rock\Footstep03		52872
 

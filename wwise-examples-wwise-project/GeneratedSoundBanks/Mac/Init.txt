@@ -1,7 +1,20 @@
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	2415836739	Volume			\Default Work Unit\Volume	
+	988953028	SFXVolume			\Default Work Unit\SFXVolume	
+	1843561328	MainVolume			\Default Work Unit\MainVolume	
+	2346531308	MusicVolume			\Default Work Unit\MusicVolume	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	1502772432	SFX Bus			\Default Work Unit\Master Audio Bus\SFX Bus	
+	2886307548	MusicBus			\Default Work Unit\Master Audio Bus\MusicBus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1792153676	ReverbHall			\Default Work Unit\Master Audio Bus\ReverbHall	
+	2177764750	ReverbOutside			\Default Work Unit\Master Audio Bus\ReverbOutside	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	992902880	Small_Tiled_Room1	Wwise Matrix Reverb			
+	1588715066	Echoes_Linear	Wwise Delay			
 
