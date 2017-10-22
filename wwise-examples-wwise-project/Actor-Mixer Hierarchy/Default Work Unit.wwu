@@ -14,7 +14,17 @@
 												<Value>2</Value>
 											</ValueList>
 										</Property>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -341,7 +351,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -350,7 +360,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A587DCF-CBC0-4463-A8E4-14F59B2C9CAA}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="MusicBus" ID="{C88ABFD3-0306-4873-953E-36E2A75DC15C}" WorkUnitID="{5B617240-03C7-4AC8-840D-04AE4924DFA8}"/>
+											<ObjectRef Name="SFX Bus" ID="{0E00291F-E4AE-4DA8-85C7-679A99479DA2}" WorkUnitID="{5B617240-03C7-4AC8-840D-04AE4924DFA8}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -367,7 +377,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-16</Value>
+												<Value>-8</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

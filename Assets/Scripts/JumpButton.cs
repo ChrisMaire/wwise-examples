@@ -5,6 +5,7 @@ using UnityEngine;
 public class JumpButton : MonoBehaviour {
     public bool Undo = false;
     Rigidbody body;
+    bool set = false;
 
     void Awake()
     {
@@ -13,6 +14,10 @@ public class JumpButton : MonoBehaviour {
 
 	void OnCollisionEnter(Collision collision)
     {
+        if(set)
+        {
+            return;
+        }
         if(collision.gameObject.CompareTag("Player"))
         {
             if(Undo)
@@ -25,7 +30,7 @@ public class JumpButton : MonoBehaviour {
         }
 
         body.MovePosition(new Vector3(body.position.x, -.45f, body.position.z));
-
+        set = true;
         StopAllCoroutines();
         StartCoroutine(Reset());
     }
@@ -33,12 +38,13 @@ public class JumpButton : MonoBehaviour {
     IEnumerator Reset()
     {
         yield return new WaitForSeconds(0.3f);
-        Vector3 t = new Vector3(body.position.x, -.15f, body.position.z);
+        Vector3 t = new Vector3(body.position.x, -.145f, body.position.z);
         while (body.position.y < -.15f)
         {
             transform.position = Vector3.Lerp(body.position, t, Time.deltaTime);
             yield return null;
         }
         transform.position = t;
+        set = false;
     }
 }

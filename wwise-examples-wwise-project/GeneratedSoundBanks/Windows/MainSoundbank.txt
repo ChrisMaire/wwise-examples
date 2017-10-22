@@ -14,14 +14,16 @@ Switch	ID	Name	Switch Group			Notes
 	4248645337	Grass	Material			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	988953028	SFXVolume			\Default Work Unit\SFXVolume	
 	1843561328	MainVolume			\Default Work Unit\MainVolume	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	1502772432	SFX Bus			\Default Work Unit\Master Audio Bus\SFX Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	1792153676	ReverbHall			\Default Work Unit\Master Audio Bus\ReverbHall	
-	2177764750	ReverbOutside			\Default Work Unit\Master Audio Bus\ReverbOutside	
+	1792153676	ReverbHall			\Default Work Unit\Master Audio Bus\SFX Bus\ReverbHall	
+	2177764750	ReverbOutside			\Default Work Unit\Master Audio Bus\SFX Bus\ReverbOutside	
 
 Effect plug-ins	ID	Name	Type				Notes
 	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
